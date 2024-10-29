@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BTS_1.1</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Esercizio 1 Bootstrap</h1><br /><br />
+            <h3>Cos'è Bootstrap?</h3>
+            <p>Bootstrap è un framework di sviluppo web gratuito e open source. È progettato per facilitare il processo di sviluppo web di siti web responsive e mobile-first fornendo una raccolta di sintassi per i modelli di progettazione.
+
+                In altre parole, Bootstrap framework aiuta gli sviluppatori web a creare siti web più velocemente in quanto non devono preoccuparsi dei comandi e delle funzioni di base. Consiste di script basati su HTML, CSS e JS per varie funzioni e componenti relativi al web design.</p><br />
+            <h3>Cosa devi importare per creare una pagina web con Bootstrap?</h3>
+            <p>Puoi importare il file CSS nel tuo sito e ci sono 2 modi per farlo:</p>
+            <ul>
+                <li>Scaricare il file CSS dal sito ufficiale e metterlo nella directory con gli altri file del tuo sito</li>
+                <li>Importare il file CSS da remoto usando il tag &lt;link&gt; nella sezione &lt;head&gt;. <br />
+                Esempio: &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt;</li>
+            </ul><br />
+            <h3>Cos'è un CDN?</h3>
+            <p>Una rete per la distribuzione dei contenuti (CDN) è un gruppo di server distribuiti in più aree geografiche che velocizza la delivery dei contenuti web avvicinandoli di più alle posizioni geografiche degli utenti.
+
+                Le CDN si basano su un processo definito "caching" o memorizzazione nella cache, che archivia temporaneamente copie dei file in vari data center dislocati in tutto il mondo, consentendo agli utenti di accedere ai contenuti sul web dai server che si trovano nello loro vicinanze.</p><br />
+            <h3>Che vantaggi comporta rispetto a scaricare bootstrap sul tuo sito?</h3>
+            <p>I vantaggi principali di un CDN sono:</p>
+            <ul>
+                <li>Velocità: I file vengono serviti dal server più vicino all'utente, riducendo i tempi di latenza e migliorando la velocità di caricamento delle pagine.
+                </li>
+                <li>Affidabilità: I CDN sono progettati per gestire alti volumi di traffico e ridondanze, quindi se un server è in down, un altro server può fornire i contenuti.</li>
+                <li>Scalabilità: Un CDN può gestire un aumento improvviso del traffico senza rallentamenti, cosa che può essere più difficile per un server singolo.</li>
+                <li>Aggiornamenti Facili: Utilizzando versioni ospitate da CDN, puoi beneficiare di aggiornamenti automatici a nuove versioni di Bootstrap senza dover modificare il tuo codice.</li>
+            </ul>
+            <br/>
+            <h3>A cosa serve l'attributo "content="width=device-width, initial-scale=1" del tag &lt;meta&gt;?</h3>
+            <p>L'attributo serve a impostare la larghezza del sito alla larghezza del dispositivo utilizzato</p><br/>
+            
+            <h3>Che differenza c'è tra Container e Container Fluid?</h3>
+            <br>
+            <h4>.container</h4>
+            <p><ul>
+                <li>Larghezza Fissa: Un contenitore normale ha larghezze fisse che variano a seconda della dimensione dello schermo (breakpoint). Ad esempio, su schermi piccoli, il contenitore potrebbe essere largo 100%, ma su schermi più grandi avrà larghezze specifiche (ad esempio, 720px, 960px, 1140px, etc.).</li>
+                <li>Utilizzo: È utile quando vuoi avere un layout centrato e ben definito, con margini fissi ai lati.
+                .container-fluid</li>
+                </ul></p>  
+                
+            <h4>.container-fluid</h4>
+            <p><ul>
+                <li>Larghezza Completa: Un contenitore fluido occupa sempre il 100% della larghezza disponibile del suo elemento padre. Non ha larghezze fisse e si espande o si riduce in base alla dimensione della finestra.</li>
+                <li>Utilizzo: È ideale per layout che devono occupare tutto lo spazio disponibile, come per pagine a schermo intero o design responsivi che si adattano a schermi di diverse dimensioni.</li>
+                </ul></p>
+            </div>
+    </body>
+</html>
